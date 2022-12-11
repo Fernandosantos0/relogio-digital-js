@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Relógio Digital - JS</title>
+        <!-- favicon -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <!-- JS -->
+        <script type="text/javascript" src="js/script.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <link rel="stylesheet" href="css/folhaEstilo.css">
+    </head>
+    <body>
+
+        <main id="box">
+            <div class="flex">
+                <div class="flex-time">
+                    <time id="hora">00</time>
+                    <span>Hora</span>
+                </div>
+    
+                <div class="flex-time">
+                    <time id="minuto">00</time>
+                    <span>Minuto</span>
+                </div>
+    
+                <div class="flex-time">
+                    <time id="segundo">00</time>
+                    <span>Segundo</span>
+                </div>
+            </div>
+            <div>
+                <time id="data"></time>
+                <time id="data-c"></time>
+            </div>
+        </main> <!-- box -->
+
+    </body>
+</html>
